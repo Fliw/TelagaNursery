@@ -22,8 +22,8 @@ if (isset($_POST['submit'])) {
     </script>';
         $KiriminKe = 'guudgayn@gmail.com';
         $NamaSiPengirim = 'Fliw';
-        $emailpengirim = 'mriars4e@gmail.com';
-        $PassSMTPnya = 'fliw12321';
+        $emailpengirim = 'guudgayn@gmail.com';
+        $Username = 'fliww';
         $mail = new PHPMailer;
         $mail->isSMTP(true);
         $mail->Host = 'smtp.gmail.com';
